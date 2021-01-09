@@ -1,0 +1,346 @@
+html{
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Takes you down to the About Me section*/
+#down-1 {
+  margin-top: 100%;
+  padding-bottom: 25%;
+}
+
+/*Takes you down to the Skills section*/
+#down-2 {
+  margin-top: 100%;
+  padding-bottom: 25%;
+} 
+
+#down-3 {
+  margin-top: 100%;
+  padding-bottom: 25%;
+}
+
+#down-4 {
+  margin-top: 100%;
+  padding-bottom: 25%;
+}
+
+
+#wrapper{
+  margin-left: auto;
+  margin-right:auto;
+  width:1440px;
+}
+
+/* Bar at the top of the website */
+.navbar {
+  overflow: hidden;
+  background-color: #363557;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.navbar a {
+  float: right;
+  margin: auto;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar b {
+  float: left;
+  margin: auto;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  transition: all .4s ease;
+}
+
+/* intro text */
+
+#beginning {
+  font:georgia;
+  font-family:serif;
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  left: 35%;
+  top: 37.5%;
+  z-index: 1000;
+}
+
+/* title text for "about me" */
+
+#about-me-heading{
+  font:georgia;
+  font-family:serif; 
+  color:black;
+  font-size:45px;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+/* actual text for about me */
+
+#about-me{
+  font:georgia;
+  font-family:serif; 
+  color:black;
+  font-size:20px;
+  text-align:left;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+/*Lua logo*/
+
+#lua {
+  width: 124px;
+  height: 124px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#lua:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* c++ logo */
+
+#c {
+  width: 124px;
+  height: 124px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#c:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* java logo */
+
+#java {
+  width: 124px;
+  height: 124px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#java:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* python logo */
+
+#python {
+  width: 98px;
+  height: 98px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#python:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* racket logo */
+
+#racket {
+  width: 98px;
+  height: 98px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#racket:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* html logo */
+
+#html {
+  width: 98px;
+  height: 98px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#html:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* css logo */
+
+#css{
+  width: 98px;
+  height: 110px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#css:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+#lua{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+}
+
+#lua:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+/* skills section of the website */
+
+#skills{
+  font:georgia;
+  color:black;
+  font-family:serif;
+  font-size:44px;
+  text-align:center;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}  
+
+#skills-text{
+  font:georgia;
+  font-family:serif;
+  color: black;
+  font-size:20px;
+  text-align:center;
+  padding-top: 10px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}
+
+#projects{
+  font:georgia;
+  color: black;
+  font-family: serif;
+  font-size:44px;
+  text-align:center;
+  position: relative;
+}
+
+/*Overlay to pop up over the project pictures to link to GitHub*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/*Footer at the bottom of the page with buttons to LinkedIn, GitHub and Gmail*/
+.zoom {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.zoom:hover {
+  transform: scale(1.21);
+}
+
+/*column of 3s*/
+.column-left { 
+	float: left; 
+	width: 33.333%; }
+.column-right { 
+	float: right; 
+	width: 33.333%; }
+.column-center { 
+	display: inline-block; 
+	width: 33.333%; }
