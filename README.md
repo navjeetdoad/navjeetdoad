@@ -1,1 +1,0 @@
-# navjeetdoad.github.io
